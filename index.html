@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MKW Track Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <input
+      id="search"
+      type="text"
+      placeholder="Search tracks..."
+      autocomplete="off"
+      aria-label="Search by track name"
+    />
+    <button id="modeToggle" aria-label="Toggle dark/light mode" title="Dark/Light toggle">🌙</button>
+  </header>
+
+  <main>
+    <section id="gallery" class="gallery" aria-live="polite" aria-label="Track gallery"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
